@@ -1,6 +1,6 @@
 # Max Base
 # 2021-01-14
-# https://github.com/BaseMax/mathematical-imaging-vision-face
+# https://github.com/BaseMax/mathematical-imaging-vision
 
 from PIL import Image
 from math import sqrt
