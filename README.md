@@ -1,2 +1,3 @@
-# mathematical-imaging-vision
-python mathematical imaging vision
+# Mathematical Imaging Vision Python
+
+Python Mathematical Imaging Vision
