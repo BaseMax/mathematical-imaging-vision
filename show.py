@@ -39,3 +39,17 @@ def close_color(pixel, colors):
             close = color
 
     return close
+
+image = Image.open("5.png")
+width, height = image.size[0], image.size[1]
+pixels = list(image.getdata())
+image.close()
+
+for y in range(int(height)): # y
+    for x in range(int(width)): #x
+        i = x + y * width # pixel i
+        pixels[i] = close_color(pixels[i], colors)
+
+output = Image.new("RGB", image.size)
+output.putdata(pixels)
+output.save("demo.png")
