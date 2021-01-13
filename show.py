@@ -1,6 +1,6 @@
 # Max Base
 # 2021-01-14
-# https://github.com/BaseMax/mathematical-imaging-vision
+# https://github.com/BaseMax/mathematical-imaging-vision-face
 
 from PIL import Image
 from math import sqrt
@@ -12,6 +12,7 @@ colors = [
     (250,250,250)
 ]
 
+# find close color of a pixel
 def close_color(pixel, colors):
     close = (0, 0, 0) # default color
     minDiff = 1000
@@ -40,16 +41,19 @@ def close_color(pixel, colors):
 
     return close
 
+# read input image fle
 image = Image.open("5.png")
 width, height = image.size[0], image.size[1]
 pixels = list(image.getdata())
 image.close()
 
+# modify/calc
 for y in range(int(height)): # y
     for x in range(int(width)): #x
-        i = x + y * width # pixel i
+        i = x + y * width # ith pixel
         pixels[i] = close_color(pixels[i], colors)
 
+# save output
 output = Image.new("RGB", image.size)
 output.putdata(pixels)
 output.save("demo.png")
