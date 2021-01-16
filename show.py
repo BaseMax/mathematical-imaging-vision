@@ -42,7 +42,7 @@ def close_color(pixel, colors):
 
     return close
 
-# read input image fle
+# read input image file
 image = Image.open("5.png")
 width, height = image.size[0], image.size[1]
 pixels = list(image.getdata())
