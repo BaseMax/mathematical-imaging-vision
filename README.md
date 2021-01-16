@@ -17,6 +17,12 @@ https://en.wikipedia.org/wiki/Color_difference
 
 check more: https://stackoverflow.com/a/1847112/10096230
 
+### Credit
+
+This image is **Prof. Ali Reza Ashrafi**, my professor who help me to find new subject in mathematics area.
+
+https://en.wikipedia.org/wiki/Ali_Reza_Ashrafi
+
 ---------
 
 # Max Base
