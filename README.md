@@ -11,6 +11,10 @@ Python Mathematical Imaging Vision
 
 #### What is the use of the sqrt and why?
 
+```
+D ={\sqrt {(R_{2}-R_{1})^{2}+(G_{2}-G_{1})^{2}+(B_{2}-B_{1})^{2}}}
+```
+
 <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/06cdd86ced397bbf6fad505b4c4d91fa2438b567">
 
 https://en.wikipedia.org/wiki/Color_difference
