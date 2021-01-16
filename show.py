@@ -33,6 +33,7 @@ def close_color(pixel, colors):
         dg = g - pg
         db = b - pb
 
+        # Why squrt? read: https://en.wikipedia.org/wiki/Color_difference
         sum = dr**2 + dg**2 + dg**2
         diff = sqrt(sum)
         if(diff < minDiff):
